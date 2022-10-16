@@ -1,0 +1,49 @@
+16:08:12.788 ardopc Version 1.0.4.1mBPQ-Debug5
+16:08:12.789 ARDOPC listening on port 8515
+16:08:12.789 Capture Devices
+
+16:08:12.793 Card 0, ID `PCH', name `HDA Intel PCH'
+16:08:12.793   Device hw:0,0 ID `ALC255 Analog', name `ALC255 Analog', 1 subdevices (1 available)
+16:08:12.879     2 channels,  sampling rate 44100..192000 Hz
+16:08:12.879 
+16:08:12.879 Card 1, ID `Device', name `USB Audio Device'
+16:08:12.879   Device hw:1,0 ID `USB Audio', name `USB Audio', 1 subdevices (1 available)
+16:08:12.879     1 channel,  sampling rate 44100..48000 Hz
+16:08:12.879 
+16:08:12.879 Playback Devices
+
+16:08:12.879 Card 0, ID `PCH', name `HDA Intel PCH'
+16:08:12.879   Device hw:0,0 ID `ALC255 Analog', name `ALC255 Analog', 1 subdevices (1 available)
+16:08:12.879     2 channels,  sampling rate 44100..48000 Hz
+16:08:12.879   Device hw:0,3 ID `HDMI 0', name `HDMI 0', 1 subdevices (1 available)
+16:08:12.896     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.896   Device hw:0,7 ID `HDMI 1', name `HDMI 1', 1 subdevices (1 available)
+16:08:12.896     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.896   Device hw:0,8 ID `HDMI 2', name `HDMI 2', 1 subdevices (1 available)
+16:08:12.896     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.896   Device hw:0,9 ID `HDMI 3', name `HDMI 3', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,10 ID `HDMI 4', name `HDMI 4', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,11 ID `HDMI 5', name `HDMI 5', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,12 ID `HDMI 6', name `HDMI 6', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,13 ID `HDMI 7', name `HDMI 7', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,14 ID `HDMI 8', name `HDMI 8', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,15 ID `HDMI 9', name `HDMI 9', 1 subdevices (1 available)
+16:08:12.897     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.897   Device hw:0,16 ID `HDMI 10', name `HDMI 10', 1 subdevices (1 available)
+16:08:12.898     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.898   Device hw:0,17 ID `HDMI 11', name `HDMI 11', 1 subdevices (1 available)
+16:08:12.898     2..8 channels, sampling rate 32000..192000 Hz
+16:08:12.898 
+16:08:12.898 Card 1, ID `Device', name `USB Audio Device'
+16:08:12.898   Device hw:1,0 ID `USB Audio', name `USB Audio', 1 subdevices (0 available)
+16:08:12.898 Error -16 opening output device
+16:08:12.898 
+16:08:12.898 Opening Playback Device ARDOP Rate 12000
+16:08:12.898 cannot open playback audio device ARDOP (No such file or directory)
+16:08:12.898 ardopc listening on port 8515
