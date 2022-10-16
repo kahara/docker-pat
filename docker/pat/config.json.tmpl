@@ -1,0 +1,33 @@
+{
+  "mycall": "{{ .Env.CALLSIGN }}",
+  "secure_login_password": "{{ .Env.WINLINK_PASSWORD }}",
+  "auxiliary_addresses": [],
+  "locator": "{{ .Env.LOCATOR }}",
+  "service_codes": [
+    "PUBLIC"
+  ],
+  "http_addr": "0.0.0.0:10000",
+  "motd": [
+    "Open source Winlink client - getpat.io"
+  ],
+  "connect_aliases": {
+    "telnet": "telnet://{mycall}:CMSTelnet@cms.winlink.org:8772/wl2k"
+  },
+  "listen": [],
+  "hamlib_rigs": {
+     "rig": {"address": "rigctld:4532", "network": "tcp"}
+  },
+  "ardop": {
+    "addr": "ardopc:8515",
+    "arq_bandwidth": {
+      "Forced": false,
+      "Max": 500
+    },
+    "rig": "rig",
+    "ptt_ctrl": true,
+    "beacon_interval": 0,
+    "cwid_enabled": true
+  },
+  "schedule": {},
+  "version_reporting_disabled": false
+}

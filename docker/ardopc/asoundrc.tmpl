@@ -1,0 +1,7 @@
+pcm.ARDOP {
+	type rate
+	slave {
+		pcm "{{ .Env.ARDOP_DEVICE }}"
+		rate 48000
+	}
+}

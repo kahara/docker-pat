@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  pat:
+    build:
+      context: ./docker/pat
+      args:
+        PAT_VERSION: ${PAT_VERSION}
+    ports:
+      - '10000:10000'
+    environment:
+      CALLSIGN: ${CALLSIGN}
+      LOCATOR: ${LOCATOR}
+      WINLINK_PASSWORD: ${WINLINK_PASSWORD}
+
+  rigctld:
+    build:
+      context: ./docker/rigctld
+    devices:
+      - "${RIG_SERIALPORT}:${RIG_SERIALPORT}"
+    environment:
+      RIG_SERIALPORT: ${RIG_SERIALPORT}
+      RIG_SERIALSPEED: ${RIG_SERIALSPEED}
+      HAMLIB_RIGMODEL: ${HAMLIB_RIGMODEL}
+
+  ardopc:
+    build:
+      context: ./docker/ardopc
+    devices:
+      - "/dev/snd:/dev/snd"
+    environment:
+      ARDOP_DEVICE: ${ARDOP_DEVICE}
