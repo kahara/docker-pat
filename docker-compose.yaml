@@ -27,5 +27,7 @@ services:
       context: ./docker/ardopc
     devices:
       - "/dev/snd:/dev/snd"
+      - "${RIG_SERIALPORT}:${RIG_SERIALPORT}"
     environment:
       ARDOP_DEVICE: ${ARDOP_DEVICE}
+      RIG_SERIALPORT: ${RIG_SERIALPORT}
